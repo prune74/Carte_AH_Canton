@@ -1,13 +1,13 @@
 #pragma once
 #include <Arduino.h>
-#include "EXSA_Pins.h"          // Broches physiques
+#include "AHCanton_Pins.h"          // Broches physiques
 
 /*
  * ============================================================
- *  EXSA_Config.h — Configuration globale EXSA (Option A)
+ *  AHCanton_Config.h — Configuration globale AHCanton (Option A)
  * ------------------------------------------------------------
  *  Ce fichier regroupe toutes les constantes de configuration
- *  du firmware EXSA. Il définit :
+ *  du firmware AHCanton. Il définit :
  *
  *    - options générales
  *    - temporisations canton
@@ -22,12 +22,12 @@
  *     Aucun bitfield ici.
  *
  *  Les aspects SNCF sont définis dans :
- *      → EXSA_Signaux.h / EXSA_Signaux.cpp
+ *      → AHCanton_Signaux.h / AHCanton_Signaux.cpp
  * ============================================================
  */
 
 /* ============================================================
- *  Options générales EXSA
+ *  Options générales AHCanton
  * ============================================================ */
 #define EXSA_DEBUG              false   // Debug série
 #define EXSA_DEBOUNCE_MS        5       // Anti-rebond capteur présence
